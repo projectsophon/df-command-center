@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Vite
+.DS_Store
+dist/
+dist-ssr/
+*.local
+
+# Apollo
+generated/

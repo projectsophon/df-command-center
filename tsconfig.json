@@ -1,0 +1,21 @@
+{
+  "extends": "@projectsophon/tsconfig",
+  "compilerOptions": {
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": false,
+    "strict": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react"
+  },
+  "include": [
+    "./src",
+    "./generated"
+  ]
+}
