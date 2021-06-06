@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 25px;
 }
 
 .App-logo {
@@ -39,4 +40,9 @@
 
 button {
   font-size: calc(10px + 2vmin);
+}
+
+.PlanetsByLevel {
+  width: 500px;
+  height: 250px;
 }
