@@ -17,7 +17,7 @@ const cache = new InMemoryCache({
 });
 
 const client = new ApolloClient({
-  uri: "https://api.thegraph.com/subgraphs/name/darkforest-eth/dark-forest-v06-round-1",
+  uri: "https://api.thegraph.com/subgraphs/name/darkforest-eth/dark-forest-v06-round-2",
   cache,
 });
 
